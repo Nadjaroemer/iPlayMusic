@@ -2,7 +2,7 @@
     --primaryColor: #FF1168;
     --secondaryColor: #341931;
     --additionalColor: #111625;
-    --gradientColor : linear-gradient(#EE0979, #FF6A00);
+    --gradientColor : linear-gradient(to right, #EE0979, #FF6A00);
     --blue: #115793;
     --lightblue: #00A1CB;
     --turquoise: #0ABEBE;
