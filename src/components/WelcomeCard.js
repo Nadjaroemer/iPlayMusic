@@ -1,6 +1,6 @@
 import "./Welcome.css";
 
-function Welcome(){
+function WelcomeCard(){
     return(
         <div className="welcome">
             <img className="welcome__image" src="./images/music-logo-solid.png" alt="iplaymusiclogo"/>
@@ -9,4 +9,4 @@ function Welcome(){
     )
 }
 
-export default Welcome;
+export default WelcomeCard;
