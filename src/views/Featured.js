@@ -1,4 +1,5 @@
 import FeaturedCard from "../components/FeaturedCard";
+import Navigation from "../components/Navigation";
 
 export default function Featured() {
     return(
@@ -8,6 +9,7 @@ export default function Featured() {
             <FeaturedCard/>
             <FeaturedCard/>
             <FeaturedCard/>
+            <Navigation/>
         </>
     )
 }
