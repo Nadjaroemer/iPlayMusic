@@ -1,6 +1,8 @@
 /*App.css*/
 
-.app {
+body {
   max-width: 375px;
   font-family: 'Poppins';
+  padding:0;
+  margin:0;
 }

@@ -31,3 +31,7 @@
     color: white;
     font-weight: 300;
 }
+.featured__headline {
+    padding-top: 2em;
+    padding-left: 2.5rem;
+}
