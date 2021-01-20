@@ -1,0 +1,8 @@
+.welcome {
+   text-align: center;
+   padding-top: 17em;
+}
+.welcome__image{
+    width: 200px;
+    height: 216px;
+}
