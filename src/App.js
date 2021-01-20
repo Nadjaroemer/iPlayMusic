@@ -1,12 +1,14 @@
 import './App.css';
-import Welcome from './Welcome';
+import { Router } from "@reach/router";
+import WelcomeCard from './components/WelcomeCard';
 
 function App() {
   return (
-    <div className="app">
-      <Welcome/>
-     
-    </div>
+    <Router className="app">
+      <>
+      <WelcomeCard path="/"/>
+     </>
+    </Router>
   );
 }
 
