@@ -3,6 +3,7 @@ import { Router } from "@reach/router";
 import WelcomeCard from './components/WelcomeCard';
 import Featured from './views/Featured';
 import Categories from './views/Categories';
+import AllAlbums from './views/AllAlbums';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <WelcomeCard path="/"/>
       <Featured path="/featured"/>
       <Categories path="/categories"/>
+      <AllAlbums path = "/allAlbums"/>
     </Router>
   
   );
