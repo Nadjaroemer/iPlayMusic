@@ -1,6 +1,7 @@
 /*Featured.css*/
 
 .featured {
+    font-family: 'Poppins';
     padding-right: 1em;
     display: grid;
     grid-template-columns: 1fr;/*skal ændres, når jeg fetcher*/
@@ -32,9 +33,12 @@
     font-weight: 300;
 }
 .featured__headline {
+    font-family: 'Poppins';
+    font-weight: bold;
     padding-top: 2em;
     padding-left: 2.5rem;
-    background: var(--gradientColor);
+    background: -webkit-linear-gradient(0deg ,#EE0979, #FF6A00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    display: inline-block;
 }

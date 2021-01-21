@@ -22,5 +22,9 @@
     padding-top: 3em;
     padding-left: 1em;
     padding-bottom: 20px;
+    background: -webkit-linear-gradient(0deg ,#EE0979, #FF6A00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 
 }

@@ -1,0 +1,23 @@
+.newReleases {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 1em;
+    padding-left: 1em;
+}
+.newReleases__image {
+    place-self: center;
+    padding-top: 10px;
+}
+.newReleases__songs {
+    place-self: center;
+    font-size: 12px;
+}
+.newReleases__name {
+    font-size: 12px;
+    font-weight: 300;
+}
+.newReleases__album {
+    font-weight: bold;
+    font-size: 15px;
+} 
