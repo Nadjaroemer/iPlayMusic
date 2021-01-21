@@ -1,0 +1,26 @@
+.categories {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    padding: 10px 1em;
+    margin: 1em 2rem 1em 2rem;
+    border-radius: 12px;
+}
+.categories__button {
+    border: none;
+    background: transparent;
+    padding-right: 1em;
+    color: white;
+   font-weight: 900;
+
+}
+.categories__text {
+    font-size: 15px;
+    color: white;
+}
+
+.categories__headline{
+    padding-top: 3em;
+    padding-left: 1em;
+    padding-bottom: 20px;
+
+}

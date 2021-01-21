@@ -20,11 +20,11 @@
     align-self: center;
     padding-left: 3.5em;
     padding-top: 10em;
-
 }
 .featured__h1 {
     font-size: 32px;
     color: white;
+  
 }
 .featured__h2 {
     font-size: 12px;
@@ -34,4 +34,7 @@
 .featured__headline {
     padding-top: 2em;
     padding-left: 2.5rem;
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
