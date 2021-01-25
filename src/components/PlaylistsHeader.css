@@ -1,0 +1,24 @@
+.playlistsHeader {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.playlists__h1 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    padding-top: 2em;
+    padding-left: 2.5rem;
+    font-size: 32px;
+    color: white;
+    grid-area: 1/1/2/2;
+    z-index: 1;
+}
+.playlistsHeader__soundwave {
+    grid-area: 1/1/2/2;
+}
+.playlistsHeader__gallery {
+    grid-area: 1/1/2/2;
+    place-self: center;
+    padding-top: 10em;
+    padding-right: 2em;
+}
