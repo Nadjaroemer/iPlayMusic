@@ -1,0 +1,87 @@
+.albumDetailsCard {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 1em;
+    padding-left: 1em;
+}
+.albumDetailsCard__playButton{
+    place-self: center;
+    /*padding-top: 10px;*/
+}
+.albumDetailsCard__name {
+    font-size: 12px;
+    font-weight: 300;
+}
+.albumDetailsCard__time {
+    place-self: center;
+    font-size: 12px;
+}
+.albumDetailsCard__album {
+    font-weight: bold;
+    font-size: 15px;
+}
+.albumDetailsCard__playButton {
+    place-self: center;
+    border: none;
+    border-radius: 50%;
+    padding: 8px 12px;
+    background-image: -webkit-linear-gradient(0deg ,#EE0979, #FF6A00);
+    display: inline-block;
+}
+.allSongs__h1 {
+    font-size: 15px;
+    font-weight: 900;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+.albumDetailsHeader {
+    display: grid;
+    grid-template-columns: 1f;
+    grid-template-rows: 1fr;
+}
+.albumDetailsHeader__image{
+    grid-area: 1/1/2/2;
+    padding-left: 1em;
+}
+.albumDetailsHeader__titles {
+    grid-area: 1/1/2/2;
+    place-self: center;
+    z-index: 1;
+}
+.albumDetailsHeader__titles h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.albumDetailsHeader__titles h2{
+    color: white;
+    font-size: 15px;
+}
+.albumDetailsHeader__hashtags {
+    grid-area: 1/1/2/2;
+    align-self: end;
+    z-index: 1;
+    padding-left: 3.5em;
+    padding-bottom: 1em;
+    color: white
+}
+.hashtagButtons { 
+    display: flex;
+}
+.albumDetailsHeader__hashtags h3{
+    font-weight: 200;
+    font-size: 15px;
+}
+.hashtagButton {
+    border:none;
+    background-color: var(--primaryColor);
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 12px 14px;
+}
+.hashtagButton:first-of-type{
+    margin-right: 1em;
+}
