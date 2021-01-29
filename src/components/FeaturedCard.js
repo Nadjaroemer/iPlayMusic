@@ -1,14 +1,13 @@
 //FeaturedCard.js
 import "./Featured.css"
 
-function FeaturedCard() {
+function FeaturedCard({name,description,image}) {
     return(
         <article className="featured">
-            <img className="featured__shadow" src="./images/shadow.png" alt="shadow"/>
-            <img className="featured__image" src="./images/featured.png" alt="albumcover"/>
+            <img className="featured__image" src={image} alt="albumcover"/>
             <div className="featured__headlines">
-                <h1 className="featured__h1">The Greatest Showman</h1>
-                <h2 className="featured__h2">Soundtrack</h2>
+                <h1 className="featured__h1">{name}</h1>
+                <h2 className="featured__h2">{description}</h2>
             </div>
         </article>
     )
