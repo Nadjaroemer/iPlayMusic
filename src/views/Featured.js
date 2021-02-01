@@ -34,7 +34,6 @@ export default function Featured() {
             return (
             <FeaturedCard
                 key={index}
-                name={song.name}
                 description={song.description}
                 image={song.images[0].url}
             />
